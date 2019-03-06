@@ -1,0 +1,62 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+background-color:#F3F3F3;
+}
+
+a {
+  color: #406196;
+}
+
+
+
+
+#logo {
+    left: -200px;
+    top: 200px;
+    bottom: 0px;
+    margin:auto;
+    border-radius: 0px;
+    position: fixed;
+    padding: 0px;
+    background-color: #EEE;
+    cursor: default;
+    z-index: 0;
+}
+
+#canvas {
+	/* position: fixed; */
+	margin:auto;
+    left: 0;
+    right: 0
+    top: 0;
+    bottom: 0;
+    background-color: #FFF;
+    cursor: default;
+    z-index: 1;
+}
+
+
+#control_container {
+	position: fixed;
+	left:10px;
+	top:10px;
+	width:300px;
+	background-color: rgba(0, 0, 0, 0.2);
+	z-index: 2;
+}
+
+
+#controls {
+	font-family: 'Nunito', sans-serif;
+	font-size:12;
+	color: #444; 
+	padding:5px;
+	opacity: 1.0;
+}
+
+
+
+
